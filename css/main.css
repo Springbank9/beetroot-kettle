@@ -67,7 +67,7 @@ body {
 }
 
 body {
-  background-image: url(../images/grouse.jpg);
+  background-color: white;
   font-family: "muli-regular", sans-serif;
   font-size: 1.6rem;
   line-height: 1.875;
@@ -76,6 +76,11 @@ body {
   padding: 0;
 }
 
+/* Background Image */
+
+.bg-img1 {
+    background-image: url(../images/grouse.jpg)
+}
 
 /* ------------------------------------------------------------------- 
  * links - (_document-setup) 
@@ -1954,10 +1959,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   left: -27px;
 }
 
-.about-bottom-image img {
-  vertical-align: bottom;
-}
-
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2189,7 +2190,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .intro-table .intro-block.primary .button.button-primary:hover,
 .intro-table .intro-block.primary .button.button-primary:focus {
-  color: #39b54a;
+  color: white;
 }
 
 .intro-table .intro-bottom-part {
@@ -2427,7 +2428,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .owl-dots .owl-dot.active span,
 #testimonial-slider .owl-dots .owl-dot:hover span {
-  background-color: #39b54a;
+  background-color: white;
 }
 
 
@@ -2483,7 +2484,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #download {
-  background: #39b54a;
+  background: white;
   color: #b2fabc;
   padding-top: 12rem;
   padding-bottom: 12rem;
@@ -2495,7 +2496,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download h1::before {
-  background-color: #2a9038;
+  background-color: white;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -2543,6 +2544,26 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-image: url("../images/google-play.png");
 }
 
+/*Icons Grid - Logos */
+
+
+.accredited-bodies {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.accredited-bodies .accredited-bodies-item {
+  max-width: 20rem;
+}
+.accredited-bodies .accredited-bodies-item .accredited-bodies-item {
+  height: 7rem;
+}
+.accredited-bodies .accredited-bodies-item .accredited-bodies-image img {
+  font-size: 4.5rem;
+}
+.accredited-bodies .accredited-bodies-item:hover .accredited-bodies-image img {
+  font-size: 5rem;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2564,6 +2585,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *
  * ------------------------------------------------------------------- */
 
+
+ footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 footer {
   padding-top: 9rem;
   padding-bottom: 4.2rem;
