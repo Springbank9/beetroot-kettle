@@ -2096,52 +2096,52 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   padding-top: .6rem;
 }
 
-.pricing-table {
+.intro-table {
   text-align: center;
 }
 
-.pricing-table .plan-block {
+.intro-table .intro-block {
   background: #ffffff;
   border-radius: 5px;
   padding: 4.8rem 4rem 5.4rem;
   margin-bottom: 4.8rem;
 }
 
-.pricing-table .plan-block:after {
+.intro-table .intro-block:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.pricing-table .plan-block .plan-block-title {
+.intro-table .intro-block .intro-block-title {
   font-family: "montserrat-regular", sans-serif;
   font-size: 2.4rem;
   margin-bottom: 3.6rem;
 }
 
-.pricing-table .plan-block .plan-block-price {
+.intro-table .intro-block .intro-block-text {
   font-family: "montserrat-medium", sans-serif;
-  font-size: 7.8rem;
+  font-size: 2.8rem;
   color: #151515;
   line-height: 1;
   margin-bottom: 0;
 }
 
-.pricing-table .plan-block .plan-block-price sup {
+.intro-table .intro-block .intro-block-price sup {
   font-family: "montserrat-regular", sans-serif;
   font-size: 3rem;
   top: -3.6rem;
   margin-right: 3px;
 }
 
-.pricing-table .plan-block .plan-block-per {
+.intro-table .intro-block  {
   margin-top: -.6rem;
   margin-bottom: 0;
   font-family: "montserrat-medium", sans-serif;
   font-size: 1.7rem;
 }
 
-.pricing-table .plan-block .plan-block-features {
+.pricing-table .intro-block .intro-block-features {
   list-style: none;
   margin: 0 2rem 4.2rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -2149,50 +2149,50 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   line-height: 2.4rem;
 }
 
-.pricing-table .plan-block .plan-block-features li {
+.intro-table .intro-block .intro-block-features li {
   padding: 1.2rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.pricing-table .plan-block .plan-block-features li span {
+.intro-table .intro-block .intro-block-features li span {
   color: #39b54a;
   font-family: "muli-bold", sans-serif;
 }
 
-.pricing-table .plan-block.primary {
+.intro-table .intro-block.primary {
   background: #39b54a;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.pricing-table .plan-block.primary .plan-block-title,
-.pricing-table .plan-block.primary .plan-block-price {
+.intro-table .intro-block.primary .intro-block-title,
+.intro-table .intro-block.primary .intro-block-text {
   color: #ffffff;
 }
 
-.pricing-table .plan-block.primary .plan-block-features {
+.intro-table .intro-block.primary .intro-block-features {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.pricing-table .plan-block.primary .plan-block-features li {
+.intro-table .intro-block.primary .intro-block-features li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.pricing-table .plan-block.primary .plan-block-features li span {
+.intro-table .intro-block.primary .intro-block-features li span {
   color: #ffffff;
 }
 
-.pricing-table .plan-block.primary .button.button-primary {
+.intro-table .intro-block.primary .button.button-primary {
   background: #ffffff;
   color: #151515;
   border-color: #ffffff;
 }
 
-.pricing-table .plan-block.primary .button.button-primary:hover,
-.pricing-table .plan-block.primary .button.button-primary:focus {
+.intro-table .intro-block.primary .button.button-primary:hover,
+.intro-table .intro-block.primary .button.button-primary:focus {
   color: #39b54a;
 }
 
-.pricing-table .plan-bottom-part {
+.intro-table .intro-bottom-part {
   margin-top: 3rem;
 }
 
@@ -2231,22 +2231,22 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 @media only screen and (max-width: 768px) {
-  .pricing-table .plan-wrap {
+  .pricing-table .intro-wrap {
     width: 100% !important;
     float: none !important;
     clear: both !important;
     margin-left: 0;
     margin-right: 0;
   }
-  .pricing-table .plan-top-part,
-  .pricing-table .plan-bottom-part {
+  .pricing-table .intro-top-part,
+  .pricing-table .intro-bottom-part {
     float: left;
   }
-  .pricing-table .plan-top-part {
+  .pricing-table .intro-top-part {
     width: 41.66667%;
     margin-top: 1.2rem;
   }
-  .pricing-table .plan-bottom-part {
+  .pricing-table .intro-bottom-part {
     width: 58.33333%;
   }
 }
@@ -2255,8 +2255,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   #pricing [class*="col"].pricing-table {
     max-width: 360px;
   }
-  #pricing .plan-top-part,
-  #pricing .plan-bottom-part {
+  #pricing .intro-top-part,
+  #pricing .intro-bottom-part {
     width: 100% !important;
     float: none !important;
     clear: both !important;
