@@ -1411,8 +1411,13 @@ h1.intro-header::before {
   display: table;
 }
 
-.overlay {
+.overlay-home {
     background-image: url(../images/grouse.jpg);
+    opacity: 0,8;
+}
+
+.overlay-farming {
+    background-image: url(../images/beef-shorthorn.jpeg);
     opacity: 0,8;
 }
 
